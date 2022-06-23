@@ -46,7 +46,8 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      A tech enthusiast with a keen interest in software development. I have <span style={{fontWeight: 'bold', color: 'white'}}>Good problem solving</span> and <span style={{fontWeight: 'bold', color: 'white'}}>Communicational skills </span>to perform well in a team. Currently looking for opportunities to use and develop my skills. My Area of Interest include <span style={{fontWeight: 'bold', color: 'white'}}>Web development, Mobile Development and Graphic Designing.</span></SectionText>
+        A tech enthusiast interested in <span style={{fontWeight: 'bold', color: 'white'}}>Software development</span>. I have <span style={{fontWeight: 'bold', color: 'white'}}>Good problem solving</span> and <span style={{fontWeight: 'bold', color: 'white'}}>Communicational skills</span> to perform well under pressure and in a team. Currently looking for opportunities to use and develop my skills. My Area of Interest includes <span style={{fontWeight: 'bold', color: 'white'}}>Web development</span> and <span style={{fontWeight: 'bold', color: 'white'}}>Graphic Designing</span>.
+      </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (

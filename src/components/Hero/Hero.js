@@ -8,7 +8,8 @@ const Hero = (props) => (
   <>
   
     <Section row padding>
-      <div style={{width: 500 }}><img src=".\images\profile.png" alt="" width="300px" height="300px"/></div>      <LeftSection >
+      <div style={{width: 500 }}><img  src=".\images\profile.png" alt="" width="300px" height="300px"/></div>      
+      <LeftSection >
         <SectionTitle main center>
           Hi, I am <br />
           Hitendra Singh Pal
