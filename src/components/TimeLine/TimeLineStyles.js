@@ -74,7 +74,7 @@ export const CarouselItemTitle = styled.h4`
   letter-spacing: 0.02em;
   display: flex;
   /* This gradient is different due to the size of the Title container, it must transition sooner to be visible on the text */
-  background: white;
+  background: #FFC600;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 8px;
