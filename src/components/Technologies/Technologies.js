@@ -49,7 +49,8 @@ const Technologies = () =>  (
           <ListParagraph>
             Data Structures & Algorithms <br />
             Git, Github <br/>
-            Adobe Illustrator, Photoshop
+            Adobe Illustrator, Photoshop<br/>
+            Figma
           </ListParagraph>
         </ListContainer>
       </ListItem>
