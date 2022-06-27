@@ -4,11 +4,12 @@ import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponent
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
+
 const Hero = (props) => (
   <>
   
     <Section row padding>
-      <div style={{width: 500 }}><img  src=".\images\profile.png" alt="" width="300px" height="300px"/></div>      
+      <div style={{width: 500}}><img style={{boxShadow: "3px 3px 20px #950101" , borderRadius: "50%"}} src=".\images\profile.png" alt="" width="300px" height="300px"/></div>      
       <LeftSection >
         <SectionTitle main center>
           Hi, I am <br />
