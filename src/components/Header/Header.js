@@ -5,6 +5,7 @@ import { DiCssdeck } from 'react-icons/di';
 import { VscAccount } from "react-icons/vsc";
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
 
+
 const Header = () =>  (
   <Container>
     <Div1>
@@ -38,9 +39,6 @@ const Header = () =>  (
         <SocialIcons href="https://www.linkedin.com/in/hitendra-singh-pal-b0866b170?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BWJ7L%2FLfDSaW60toS5fxZ8A%3D%3D">
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
-        {/* <SocialIcons href="https://google.com">
-          <AiFillInstagram size="3rem"/>
-        </SocialIcons> */}
       </Div3>
     </Container>
 );
