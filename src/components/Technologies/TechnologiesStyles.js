@@ -56,6 +56,11 @@ export const ListContainer = styled.div`
   box-shadow: 3px 3px 20px #FF0000;
   border-radius: 12px;
   padding: 24px;
+  transition: 0.5s;
+  &:hover{
+    //background: #FF0000;
+    transform: scale(1.05,1.05);
+  }
   @media ${props => props.theme.breakpoints.sm}{
     display: flex;
     margin-left: 18px;

@@ -20,6 +20,7 @@ const Acomplishments = () => (
           <BoxText>{card.text}</BoxText>
         </Box>
       ))}
+      
     </Boxes>
   </Section>
 );
