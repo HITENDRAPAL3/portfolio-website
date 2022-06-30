@@ -9,7 +9,8 @@ export const Img = styled.img`
   border-top-right-radius: 12px;
   transition: 0.5s;
   &:hover{
-    
+    transform: scale(1.05,1.05);
+    border-radius: 12px;
     box-shadow: 3px 3px 20px #FF0000;
   }
 `
@@ -105,8 +106,9 @@ background: #950101;
 border-radius: 5px;
 transition: 0.5s;
 &:hover{
-  background: #FF0000;
-
+  background: #e30202;
+  transform: scale(1.1,1.1);
+  transform: rotate(360deg);
 }
 `;
 
