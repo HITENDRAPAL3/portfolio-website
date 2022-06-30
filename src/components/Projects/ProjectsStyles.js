@@ -5,6 +5,13 @@ export const Img = styled.img`
   height:100%;
   object-fit: cover;
   overflow: hidden;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  transition: 0.5s;
+  &:hover{
+    
+    box-shadow: 3px 3px 20px #FF0000;
+  }
 `
 
 export const GridContainer = styled.section`
@@ -18,7 +25,7 @@ row-gap: 3rem;
   display: flex;
   flex-direction: column;
   padding: 2rem;
-  padding-bottom: 0;
+  padding-bottom: 10px;
 }
 
 `
@@ -49,11 +56,12 @@ export const HeaderThree = styled.h3`
 `;
 
 export const Hr = styled.hr`
-  width: 200px;
-  height: 3px;
+  width: 100%;
+  height: 2px;
   margin: 20px auto;
   border: 0;
-  background: #FF0000;
+  background: #950101;
+  box-shadow: 1px 1px 10px #FF0000;
 `;
 
 export const Intro = styled.div`
@@ -75,7 +83,7 @@ export const CardInfo = styled.p`
   line-height: 24px;
   text-align: justify;
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding:.3rem
+    padding:.9rem
   
 }
 `;
