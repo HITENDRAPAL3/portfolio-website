@@ -28,7 +28,7 @@ const Projects = () => (
               <ExternalLinks href={p.source}>Github</ExternalLinks>
             </UtilityList> 
             </TitleContent>
-            <Hr/>
+           
             <CardInfo className="card-info">{p.description}</CardInfo>
             <br/>
              

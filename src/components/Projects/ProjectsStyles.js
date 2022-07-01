@@ -108,7 +108,6 @@ transition: 0.5s;
 &:hover{
   background: #e30202;
   transform: scale(1.1,1.1);
-  transform: rotate(360deg);
 }
 `;
 
