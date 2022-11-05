@@ -20,6 +20,7 @@ const Technologies = () =>  (
           <ListTitle>Programming Languages</ListTitle>
           <ListParagraph>
             C++ <br />
+            Java <br/>
             Javascript <br/>
             Python (Basic)
           </ListParagraph>
