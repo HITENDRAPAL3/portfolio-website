@@ -5,7 +5,7 @@ import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 
 const data = [
   { number: 5, text: 'Personal Projects'},
-  { number: 450, text: 'DSA Questions solved', },
+  { number: 700, text: 'DSA Questions solved', },
   // { number: 1, text: 'Google Data Analytics', },
   // { number: 5000, text: 'Github Stars', }
 ];

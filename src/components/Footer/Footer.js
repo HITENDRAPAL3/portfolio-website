@@ -26,7 +26,7 @@ const Footer = () => {
         <LinkColumn>
           <LinkTitle>Address</LinkTitle>
           <LinkItem>
-            Kanpur, Uttar Pradesh
+            India
           </LinkItem>
         </LinkColumn>
       </LinkList>
